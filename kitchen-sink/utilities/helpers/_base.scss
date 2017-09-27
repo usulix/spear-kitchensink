@@ -1,0 +1,115 @@
+.no-wrap {
+  white-space: nowrap;
+}
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.stretch {
+  white-space: normal !important;
+  width: 100%;
+}
+
+.striped > :nth-child(even) {
+  background: #f6f6f6;
+}
+
+.striped > :nth-child(odd) {
+  background: $color-white;
+}
+
+.reverse-striped > :nth-child(even) {
+  background: $color-white;
+}
+
+.reverse-striped > :nth-child(odd) {
+  background: #f6f6f6;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+@include large-screens {
+  .pull-left.lg-no-pull,
+  .pull-right.lg-no-pull {
+    float: none !important;
+  }
+}
+
+@include medium-screens {
+  .pull-left.md-no-pull,
+  .pull-right.md-no-pull {
+    float: none !important;
+  }
+}
+
+@include small-screens {
+  .pull-left.sm-no-pull,
+  .pull-right.sm-no-pull {
+    float: none !important;
+  }
+}
+
+@include extra-small-screens {
+  .btn-xs-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .btn-xs-sm {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .fixed-nav-bar.fixed {
+    position: absolute;
+    top: initial;
+  }
+
+  .pull-left.xs-no-pull,
+  .pull-right.xs-no-pull {
+    float: none !important;
+  }
+
+  .xs-no-float {
+    float: none !important;
+  }
+}
+
+.scale {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.scale:hover {
+  -webkit-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+}
+
+.scale {
+  -webkit-transition: all ease-in-out .125s;
+  -moz-transition: all ease-in-out .125s;
+  -ms-transition: all ease-in-out .125s;
+  -o-transition: all ease-in-out .125s;
+  transition: all ease-in-out .125s;
+}
+
+.display-none {
+  display: none;
+}

@@ -1,0 +1,136 @@
+/**
+  Margin
+ */
+
+/**
+  .m-10 = margin: 10px !important;
+ */
+@for $i from 0 through 100 {
+  .m-#{$i} {
+    margin: #{$i}px !important;
+  }
+
+  .m-b-#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .m-t-#{$i} {
+    margin-top: #{$i}px !important;
+  }
+
+  .m-r-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+
+  .m-l-#{$i} {
+    margin-left: #{$i}px !important;
+  }
+}
+
+/**
+  .m-lg-10 = margin: 10px !important;
+ */
+@include large-screens {
+  @for $i from 0 through 100 {
+    .m-lg#{$i} {
+      margin: #{$i}px !important;
+    }
+
+    .m-lg-b-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .m-lg-t-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+
+    .m-lg-r-#{$i} {
+      margin-right: #{$i}px !important;
+    }
+
+    .m-lg-l-#{$i} {
+      margin-left: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .m-md-10 = margin: 10px !important;
+ */
+@include medium-screens {
+  @for $i from 0 through 100 {
+    .m-md#{$i} {
+      margin: #{$i}px !important;
+    }
+
+    .m-md-b-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .m-md-t-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+
+    .m-md-r-#{$i} {
+      margin-right: #{$i}px !important;
+    }
+
+    .m-md-l-#{$i} {
+      margin-left: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .m-sm-10 = margin: 10px !important;
+ */
+@include small-screens {
+  @for $i from 0 through 100 {
+    .m-sm#{$i} {
+      margin: #{$i}px !important;
+    }
+
+    .m-sm-b-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .m-sm-t-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+
+    .m-sm-r-#{$i} {
+      margin-right: #{$i}px !important;
+    }
+
+    .m-sm-l-#{$i} {
+      margin-left: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .m-xs-10 = margin: 10px !important;
+ */
+@include extra-small-screens {
+  @for $i from 0 through 100 {
+    .m-xs#{$i} {
+      margin: #{$i}px !important;
+    }
+
+    .m-xs-b-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .m-xs-t-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+
+    .m-xs-r-#{$i} {
+      margin-right: #{$i}px !important;
+    }
+
+    .m-xs-l-#{$i} {
+      margin-left: #{$i}px !important;
+    }
+  }
+}

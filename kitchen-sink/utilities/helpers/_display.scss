@@ -1,0 +1,29 @@
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.display-table {
+  display: table;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.x-ray {
+  border: 1px dotted $color-green;
+}
+
+.v-align-middle,
+.vertical-align-middle {
+  vertical-align: middle;
+}

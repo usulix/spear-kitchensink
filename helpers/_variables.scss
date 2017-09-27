@@ -1,0 +1,102 @@
+$navigation-height: 61px;
+
+/**
+  Variables:  Theme Colors
+ */
+$color-theme-primary: #00b9e4;
+$color-theme-primary-darker: darken($color-theme-primary, 7%);
+
+$color-theme-background:#f6f6f6;
+
+$color-blue: #00b9e4;
+$color-seminars: $color-blue;
+
+$color-teal: #238884;
+$color-workshops: $color-teal;
+
+$color-team-ed: #004A87;
+
+$color-brown: #5e564e;
+$color-study-club: $color-brown;
+
+$color-faculty-club: #596368;
+
+$color-online-ed: #434d52;
+
+$color-patient-ed: #025f75;
+
+$color-practice-solutions: #003349;
+
+$color-black: #000;
+$color-dark-gray: #1b242a;
+$color-gray: #9a9a9a;
+$color-light-gray: #ccc;
+$color-xlt-gray: #fdfdfd;
+$color-white: #fff;
+
+$color-dark-blue: #005c84;
+$color-info: $color-dark-blue;
+
+$color-green: #7cc142;
+$color-success: $color-green;
+
+$color-orange: #d55c19;
+$color-warning: $color-orange;
+
+$color-yellow: #fcc238;
+$color-improvement: $color-yellow;
+
+$color-neon: #dcde19;
+$color-upgrade: $color-neon;
+
+$color-red: #cc0000;
+$color-danger: $color-red;
+
+$color-horizontal-rule: #e8e8e8;
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700");
+
+/**
+  Variables:  Theme Fonts
+ */
+$font-theme-primary: "montbook";
+$font-bold:'montbold';
+$font-book: 'montbook';
+$font-normal: 'montbook';
+$font-light: 'montlight';
+$font-thin: 'montthin';
+$font-medium: 'monthmed';
+$font-serif: 'mercury';
+$font-serif-italic: 'mercuryitalic';
+
+@font-face {
+  font-family: 'montbook';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montbold';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montlight';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montthin';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montmed';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700');
+  font-weight: 500;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+/*
+  Background Colors
+ */
+
+.fixed-bkg {
+  background-color: #333;
+  /* background-image: url(''); < Add style to your page or div */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

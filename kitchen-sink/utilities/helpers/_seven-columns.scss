@@ -1,0 +1,100 @@
+/**
+ * COL Seventh
+ */
+
+.col-xs-seventh, .col-xs-1-seventh, .col-xs-2-seventh, .col-xs-3-seventh, .col-xs-4-seventh, .col-xs-5-seventh, .col-sm-seventh, .col-sm-1-seventh, .col-sm-2-seventh, .col-sm-3-seventh, .col-sm-4-seventh, .col-sm-5-seventh, .col-md-seventh, .col-md-1-seventh, .col-md-2-seventh, .col-md-3-seventh, .col-md-4-seventh, .col-md-5-seventh, .col-lg-seventh, .col-lg-1-seventh, .col-lg-2-seventh, .col-lg-3-seventh, .col-lg-4-seventh, .col-lg-5-seventh {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.col-xs-seventh, .col-xs-1-seventh {
+  width: 14.2%;
+  float: left;
+}
+
+.col-xs-2-seventh {
+  width: 28.4%;
+  float: left;
+}
+
+.col-xs-3-seventh {
+  width: 42.6%;
+  float: left;
+}
+
+.col-xs-4-seventh {
+  width: 56.8%;
+  float: left;
+}
+
+.col-xs-5-seventh {
+  width: 71%;
+  float: left;
+}
+
+.col-xs-6-seventh {
+  width: 85.2%;
+  float: left;
+}
+
+.col-xs-7-seventh {
+  width: 100%;
+  float: left;
+}
+
+@include small-screens {
+  .col-sm-seventh, .col-sm-1-seventh {
+    width: 14.2%;
+    float: left;
+  }
+  .col-sm-2-seventh {
+    width: 28.4%;
+    float: left;
+  }
+  .col-sm-3-seventh {
+    width: 42.6%;
+    float: left;
+  }
+  .col-sm-4-seventh {
+    width: 56.8%;
+    float: left;
+  }
+  .col-sm-5-seventh {
+    width: 71%;
+    float: left;
+  }
+  .col-sm-6-seventh {
+    width: 85.2%;
+    float: left;
+  }
+  .col-sm-7-seventh {
+    width: 100%;
+    float: left;
+  }
+}
+
+
+@include medium-screens {
+  .col-md-seventh, .col-md-1-seventh {
+    width: 14.2%;
+    float: left;
+  }
+  .col-md-2-seventh {
+    width: 28.4%;
+    float: left;
+  }
+  .col-md-3-seventh {
+    width: 42.6%;
+    float: left;
+  }
+  .col-md-4-seventh {
+    width: 56.8%;
+    float: left;
+  }
+  .col-md-5-seventh {
+    width: 71%;
+    float: left;
+  }
+}

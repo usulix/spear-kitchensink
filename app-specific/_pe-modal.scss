@@ -1,0 +1,23 @@
+/**
+ * Styles from PE Modal now global for suggestion box modal
+ */
+.pe-modal .modal-header {
+  background: #434D52 none repeat scroll 0% 0%;
+  height: 50px;
+  padding: 0;
+}
+
+.pe-modal .modal-header .icon {
+  background: #646B6F none repeat scroll 0% 0%;
+  color: #A1A6A8;
+  font-size: 24px;
+  height: 49px;
+  line-height: 49px;
+  padding: 4px;
+  text-align: center;
+  width: 50px;
+}
+
+.pe-modal .modal-header .modal-header-body {
+  padding: 13px 13px 13px 65px;
+}

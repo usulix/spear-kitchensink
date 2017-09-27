@@ -1,0 +1,56 @@
+/**
+  Font Sizes
+ */
+
+/**
+  .f-10 = font-size: 10px !important;
+ */
+@for $i from 1 through 100 {
+  .f-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+/**
+  .f-lg-10 = font-size: 10px !important;
+ */
+@include large-screens {
+  @for $i from 1 through 100 {
+    .f-lg-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .f-md-10 = font-size: 10px !important;
+ */
+@include medium-screens {
+  @for $i from 1 through 100 {
+    .f-md-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .f-sm-10 = font-size: 10px !important;
+ */
+@include small-screens {
+  @for $i from 1 through 100 {
+    .f-sm-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}
+
+/**
+  .f-xs-10 = font-size: 10px !important;
+ */
+@include extra-small-screens {
+  @for $i from 1 through 100 {
+    .f-xs-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}

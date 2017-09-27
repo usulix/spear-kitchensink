@@ -1,0 +1,28 @@
+/**
+  Popover
+ */
+
+.popover {
+  border: 1px solid #e2e3e4;
+  font-size: 13px;
+  z-index: 900;
+  &.bottom > .arrow {
+    border-bottom-color: #cacaca;
+  }
+  &.left > .arrow {
+    border-left-color: #cacaca;
+  }
+  &.right > .arrow {
+    border-right-color: #cacaca;
+  }
+  &.top > .arrow {
+    border-top-color: #cacaca;
+  }
+}
+
+.popover-title {
+  background-color: #f7f7f7;
+  background: -webkit-gradient(linear, left top, left bottom, from($color-white), to(#f7f7f7));
+  background: -moz-linear-gradient(top, $color-white, #f7f7f7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color-white', endColorstr='#f7f7f7');
+}

@@ -1,0 +1,13 @@
+{
+  "author": "ggray@speareducation.com",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "sass package for spear look and feel",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "spear-kitchensink",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

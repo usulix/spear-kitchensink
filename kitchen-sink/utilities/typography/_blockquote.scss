@@ -1,0 +1,23 @@
+blockquote {
+  border-left: 5px solid #e2e3e4;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 20px 30px;
+  p {
+    &:after, &:before {
+      font-family: 'FontAwesome';
+      opacity: .125;
+    }
+    &:after {
+      content: "\f10e";
+      margin-left: 10px;
+    }
+    &:before {
+      content: "\f10d";
+      margin-right: 10px;
+    }
+  }
+  &.no-line {
+    border-left: none;
+  }
+}

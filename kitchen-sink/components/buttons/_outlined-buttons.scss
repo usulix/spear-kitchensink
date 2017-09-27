@@ -1,0 +1,185 @@
+@import "base";
+
+.btn-outline-gray,
+.btn-outline-drk-gray,
+.btn-outline-white,
+.btn-outline-green,
+.btn-outline-blue,
+.btn-outline-toggle,
+.btn-outline-edit {
+  background: transparent none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-outline-gray span,
+.btn-outline-drk-gray span,
+.btn-outline-white span,
+.btn-outline-blue span,
+.btn-outline-orange span,
+.btn-outline-warning span,
+.btn-outline-green span,
+.btn-outline-edit span {
+  margin-right: 4px;
+}
+
+.btn-outline-orange:hover,
+.btn-outline-warning:hover {
+  color: darken($color-warning, 7%);
+  border: 1px solid darken($color-warning, 7%);
+}
+
+.btn-outline-gray {
+  color: #888;
+  border: 1px solid #e2e3e4;
+}
+
+.btn-outline-drk-gray {
+  color: #999;
+  border: 1px solid #999;
+}
+
+.btn-outline-gray:hover,
+.btn-outline-gray:focus,
+.btn-outline-gray:active,
+.btn-outline-gray.active,
+.open .dropdown-toggle.btn-outline-gray,
+.btn-outline-drk-gray:hover,
+.btn-outline-drk-gray:focus,
+.btn-outline-drk-gray:active,
+.btn-outline-drk-gray.active,
+.open .dropdown-toggle.btn-outline-drk-gray {
+  color: $color-theme-primary;
+  border-color: $color-theme-primary;
+  text-decoration: none;
+}
+
+.btn-outline-gray.btn-delete:hover,
+.btn-outline-gray.btn-delete:focus,
+.btn-outline-gray.btn-delete:active,
+.btn-outline-gray.btn-delete.active,
+.open .dropdown-toggle.btn-outline-gray.btn-delete {
+  color: $color-danger;
+  border-color: $color-danger;
+  text-decoration: none;
+}
+
+.btn-outline-toggle {
+  padding: 3px 6px;
+  color: #555;
+  border: 1px solid #555;
+}
+
+.btn-outline-blue, .btn-outline-primary {
+  background: none;
+  border: 1px solid $color-blue;
+  color: $color-blue;
+}
+
+.btn-outline-blue:focus, .btn-outline-blue:hover, .btn-outline-blue.active, .btn-outline-blue:active, .open .dropdown-toggle.btn-outline-primary, .btn-outline-primary:focus, .btn-outline-primary:hover, .btn-outline-primary.active, .btn-outline-primary:active, .open .dropdown-toggle.btn-outline-primary {
+  color: darken($color-blue, 10%);
+  border: 1px solid darken($color-blue, 10%);
+}
+
+.btn-outline-gray {
+  background: none;
+  border: 1px solid #e2e3e4;
+  color: #888;
+}
+
+.btn-outline-dark-gray {
+  background: none;
+  border: 1px solid #999;
+  color: #999;
+}
+
+.btn-outline-gray:focus, .btn-outline-gray:hover, .btn-outline-gray.active, .btn-outline-gray:active, .open .dropdown-toggle.btn-outline-gray, .btn-outline-dark-gray:focus, .btn-outline-dark-gray:hover, .btn-outline-dark-gray.active, .btn-outline-dark-gray:active, .open .dropdown-toggle.btn-outline-dark-gray {
+  border-color: $color-blue;
+  color: $color-blue;
+  text-decoration: none;
+}
+
+.btn-outline-gray.btn-delete:hover, .btn-outline-gray.btn-delete:focus, .btn-outline-gray.btn-delete:active, .btn-outline-gray.btn-delete.active, .open .dropdown-toggle.btn-outline-gray.btn-delete {
+  color: $color-red;
+  border-color: $color-red;
+  text-decoration: none;
+}
+
+.btn-outline-green, .btn-outline-edit, .btn-outline-success {
+  background: none;
+  border: 1px solid $color-green;
+  color: $color-green;
+}
+
+.btn-outline-green:focus, .btn-outline-green:hover, .btn-outline-green.active, .btn-outline-green:active, .open .dropdown-toggle.btn-outline-green, .btn-outline-edit:focus, .btn-outline-edit:hover, .btn-outline-edit.active, .btn-outline-edit:active, .open .dropdown-toggle.btn-outline-edit, .btn-outline-success:focus, .btn-outline-success:hover, .btn-outline-success.active, .btn-outline-success:active, .open .dropdown-toggle.btn-outline-success {
+  color: darken($color-green, 10%);
+  border: 1px solid darken($color-green, 10%);
+}
+
+.btn-outline-orange, .btn-outline-warning {
+  background: none;
+  border: 1px solid $color-orange;
+  color: $color-orange;
+}
+
+.btn-outline-orange:focus, .btn-outline-orange:hover, .btn-outline-orange.active, .btn-outline-orange:active, .open .dropdown-toggle.btn-outline-orange, .btn-outline-warning:focus, .btn-outline-warning:hover, .btn-outline-warning.active, .btn-outline-warning:active, .open .dropdown-toggle.btn-outline-warning {
+  color: darken($color-orange, 10%);
+  border: 1px solid darken($color-orange, 10%);
+}
+
+.btn-outline-white {
+  background: none;
+  border: 1px solid rgba($color-white, .5);
+  color: $color-white;
+}
+
+.btn-outline-white:focus, .btn-outline-white:hover, .btn-outline-white.active, .btn-outline-white:active, .open .dropdown-toggle.btn-outline-white {
+  color: $color-white;
+  border: 1px solid $color-white;
+  text-decoration: none;
+}
+
+.btn-outline-toggle:hover,
+.btn-outline-toggle:focus,
+.btn-outline-toggle:active,
+.btn-outline-toggle.active,
+.open .dropdown-toggle.btn-outline-toggle {
+  color: #999;
+  border-color: #999;
+  text-decoration: none;
+}
+
+.btn-outline-blue {
+  color: $color-blue;
+  border: 1px solid $color-blue;
+}
+
+.btn-outline-blue:hover,
+.btn-outline-blue:focus,
+.btn-outline-blue:active,
+.btn-outline-blue.active,
+.open .dropdown-toggle.btn-outline-blue {
+  color: lighten($color-blue, 5%);
+  border-color: lighten($color-blue, 5%);
+  text-decoration: none;
+}
+
+.btn-outline-green,
+.btn-outline-edit {
+  color: $color-green;
+  border: 1px solid $color-green;
+}
+
+.btn-outline-edit:hover, .btn-outline-edit:focus, .btn-outline-edit:active, .btn-outline-edit.active,
+.btn-outline-green:hover, .btn-outline-green:focus, .btn-outline-green:active, .btn-outline-green.active,
+.open .dropdown-toggle.btn-outline-green,
+.open .dropdown-toggle.btn-outline-edit {
+  color: darken($color-green, 7%);
+  background: rgba($color-white, .25);
+  border-color: darken($color-green, 7%);
+  text-decoration: none;
+}

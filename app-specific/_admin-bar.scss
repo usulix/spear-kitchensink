@@ -1,0 +1,101 @@
+/**
+ * Admin Bar
+ */
+
+#adminbar {
+  background: #000;
+  border-bottom: 1px solid #5b6064;
+  color: #fff;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  height: 30px;
+  line-height: 30px;
+  min-width: 990px;
+  text-align: left;
+  ul {
+    float: left;
+    height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      margin: 0;
+      padding: 0;
+      a {
+        color: #ccc;
+        display: block;
+        margin: 0;
+        padding: 0 10px;
+        text-decoration: none;
+      }
+      &:hover {
+        background: #9e9e9e;
+        a {
+          color: #fff;
+        }
+      }
+      &.active a {
+        border-top: 2px solid #00B9E4;
+        height: 28px;
+        line-height: 26px;
+      }
+      &:first-child a {
+        color: #fff;
+        font-weight: bold;
+      }
+      ul {
+        display: none;
+        white-space: nowrap;
+      }
+      &:hover > ul {
+        background: #9e9e9e;
+        border: 0;
+        display: block;
+        height: auto;
+        margin: 0;
+        min-height: 120px;
+        padding: 0;
+        position: absolute;
+        z-index: 9999;
+        li {
+          border: 0;
+          float: none;
+          height: auto;
+          width: auto;
+          a, &:first-child a {
+            color: #fff;
+            font-weight: normal;
+            display: block;
+            padding: 0 10px;
+            min-width: 180px;
+          }
+          &:hover {
+            background: #b1b1b1;
+          }
+          a:hover {
+            color: #fff;
+          }
+          &.active a {
+            font-style: italic;
+          }
+        }
+      }
+      &.active:hover > ul li a {
+        border-top: none;
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+/**
+ * Admin Bar > Menus
+ */
+
+@include medium-screens {
+  #adminbar {
+    display: none;
+  }
+}

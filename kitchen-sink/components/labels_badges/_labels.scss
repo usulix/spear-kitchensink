@@ -1,0 +1,22 @@
+/**
+    Labels
+ */
+.label {
+  border-radius: 1px;
+  padding: .2em .6em;
+  text-transform: uppercase;
+}
+
+.label-danger { background-color: $color-red; }
+
+.label-default { background-color: rgba($color-black, .1); }
+
+.label-info { background-color: $color-dark-blue; }
+
+.label-primary { background-color: $color-blue; }
+
+.label-success { background-color: $color-green; }
+
+.label-warning { background-color: $color-orange; }
+
+.label-white { background-color: $color-white; color: $color-blue; }

@@ -1,0 +1,116 @@
+.color-swatch {
+  background: $color-white;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .05);
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.color-swatch .color {
+  background-color: $color-light-gray;
+  color: $color-white;
+  height: 80px;
+  margin-bottom: 8px;
+  padding: 5px;
+  width: 100%;
+}
+
+.spear-font li {
+  font-size: 11px;
+  float: left;
+  min-height: 124px;
+  width: 132px;
+}
+
+.spear-font li i {
+  color: $color-blue;
+  display: block;
+  font-size: 50px;
+}
+
+.toggle-switch {
+  display: inline-block;
+  height: 22px;
+  margin-bottom: 0;
+  position: relative;
+  width: 40px;
+}
+
+.toggle-switch.toggle-sm {
+  height: 16px;
+  width: 28px;
+}
+
+.toggle-switch input { display: none; }
+
+.toggle-switch .toggle-slider,
+.toggle-switch .toggle-slider:before {
+  position: absolute;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle-switch .toggle-slider {
+  background-color: $color-light-gray;
+  border-radius: 18px;
+  bottom: 0;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .125);
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.toggle-switch .toggle-slider:before {
+  background-color: $color-white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+  bottom: 2px;
+  content: "";
+  height: 18px;
+  left: 2px;
+  width: 18px;
+}
+
+.toggle-switch.toggle-sm .toggle-slider:before {
+  height: 12px;
+  left: 2px;
+  width: 12px;
+}
+
+.toggle-switch input:checked + .toggle-slider { background-color: $color-blue; }
+
+.toggle-switch input:focus + .toggle-slider { box-shadow: 0 0 1px $color-blue; }
+
+.toggle-switch input:checked + .toggle-slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+.toggle-switch.toggle-sm input:checked + .toggle-slider:before {
+  -webkit-transform: translateX(12px);
+  -ms-transform: translateX(12px);
+  transform: translateX(12px);
+}
+
+p.section-label {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.popover-example {
+  position: relative;
+  display: block;
+  float: left;
+  width: 240px;
+  margin: 20px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e8e8e8;
+}

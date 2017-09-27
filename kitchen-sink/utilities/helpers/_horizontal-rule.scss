@@ -1,0 +1,17 @@
+/**
+  Horizontal Rule
+ */
+hr {
+  border-top: 1px solid $color-horizontal-rule;
+  margin: 20px 0;
+}
+
+.hr-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hr-xs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

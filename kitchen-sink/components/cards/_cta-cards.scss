@@ -1,0 +1,120 @@
+.cta-card {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  .cta-bkg {
+    border-radius: 5px;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  &:hover .cta-bkg {
+    opacity: 0;
+  }
+  .cta-btn {
+    opacity: 0;
+    top: 0;
+  }
+  &:hover .cta-btn {
+    opacity: 1;
+    top: -30px;
+  }
+  .cta-btn-details {
+    display: inline-block;
+    line-height: 1.1;
+    position: relative;
+    top: 7px;
+  }
+  .cta-btn, .cta-content, .cta-description, .cta-label, .cta-subject {
+    position: relative;
+  }
+  .cta-content {
+    z-index: 1;
+  }
+  .cta-description {
+    top: 0;
+  }
+  &:hover .cta-description {
+    top: -30px;
+  }
+  .cta-description .description {
+    opacity: 0;
+  }
+  &:hover .cta-description .description {
+    opacity: .8;
+  }
+  .cta-header {
+    height: 170px;
+  }
+  .cta-label {
+    opacity: 1;
+    top: 7px;
+  }
+  &:hover .cta-label {
+    opacity: 0;
+    top: -30px;
+  }
+  .cta-subject {
+    opacity: .7;
+    top: 0;
+  }
+  &:hover .cta-subject {
+    opacity: 0;
+    top: -30px;
+  }
+  .cta-btn, .cta-bkg {
+    -webkit-transition: all ease-in-out .35s;
+    -moz-transition: all ease-in-out .35s;
+    -ms-transition: all ease-in-out .35s;
+    -o-transition: all ease-in-out .35s;
+    transition: all ease-in-out .35s;
+  }
+  .cta-description {
+    -webkit-transition: all ease-in-out .35s;
+    -moz-transition: all ease-in-out .35s;
+    -ms-transition: all ease-in-out .35s;
+    -o-transition: all ease-in-out .35s;
+    transition: all ease-in-out .35s;
+    .description {
+      -webkit-transition: all ease-in-out .35s;
+      -moz-transition: all ease-in-out .35s;
+      -ms-transition: all ease-in-out .35s;
+      -o-transition: all ease-in-out .35s;
+      transition: all ease-in-out .35s;
+    }
+  }
+  .cta-label, .cta-subject {
+    -webkit-transition: all ease-in-out .35s;
+    -moz-transition: all ease-in-out .35s;
+    -ms-transition: all ease-in-out .35s;
+    -o-transition: all ease-in-out .35s;
+    transition: all ease-in-out .35s;
+  }
+}
+
+@include extra-small-screens {
+  .cta-card {
+    .cta-btn {
+      opacity: 1;
+      top: -12px;
+    }
+    &:hover {
+      .cta-btn {
+        top: -12px;
+      }
+      .cta-description {
+        top: 0px;
+      }
+    }
+    .cta-header {
+      height: initial;
+    }
+    &:hover .cta-subject {
+      opacity: .7;
+      top: 0;
+    }
+  }
+}

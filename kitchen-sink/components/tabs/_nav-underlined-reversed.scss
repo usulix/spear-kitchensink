@@ -1,0 +1,37 @@
+.nav-underlined-reversed {
+  > li {
+    > a {
+      border-bottom: 2px solid transparent;
+      color: #aaaeaf;
+      display: inline-block;
+      float: left;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.75);
+      &:hover, &:focus {
+        background-color: rgba(0, 0, 0, 0.025);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+        color: $color-white;
+      }
+    }
+    &.active > a {
+      color: $color-white;
+      background: none;
+      border-bottom: 2px solid $color-white;
+      &:focus, &:hover {
+        color: $color-white;
+        background: none;
+        border-bottom: 2px solid $color-white;
+      }
+    }
+  }
+  &.nav-centered {
+    display: inline-block;
+  }
+  > li > a {
+    -webkit-transition: all ease-in-out .125s;
+    -moz-transition: all ease-in-out .125s;
+    -ms-transition: all ease-in-out .125s;
+    -o-transition: all ease-in-out .125s;
+    transition: all ease-in-out .125s;
+  }
+}

@@ -1,0 +1,14 @@
+ul.list-checkmarks > li {
+  padding-left: 30px !important;
+  position: relative;
+  &:after {
+    color: rgba(0, 0, 0, 0.085);
+    content: '\f058';
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    pointer-events: none;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+  }
+}

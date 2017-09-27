@@ -1,0 +1,74 @@
+@import "base";
+
+/**
+  Buttons
+ */
+.btn-default {
+  background-color: darken($color-white, 12%);
+  background-image: -webkit-linear-gradient(top, $color-white 0%, darken($color-white, 5%) 100%);
+  background-image: linear-gradient(to bottom, $color-white 0%, darken($color-white, 5%) 100%);
+  border-color: darken($color-white, 12%);
+  color: $color-blue;
+  text-shadow: 0 -1px 0 rgba($color-white, .25);
+  -webkit-box-shadow: inset 0 1px 0 rgba($color-white, .25), 0 1px 1px rgba($color-black, .075);
+}
+
+.btn-primary {
+  background-color: $color-theme-primary;
+  background-image: -webkit-linear-gradient(top, lighten($color-theme-primary, 5%) 0%, $color-theme-primary 100%);
+  background-image: linear-gradient(to bottom, lighten($color-theme-primary, 5%) 0%, $color-theme-primary 100%);
+  border-color: darken($color-theme-primary, 5%);
+  color: $color-white !important;
+}
+
+.btn-success {
+  background-color: $color-green;
+  background-image: -webkit-linear-gradient(top, lighten($color-green, 10%) 0%, $color-green 100%);
+  background-image: linear-gradient(to bottom, lighten($color-green, 10%) 0%, $color-green 100%);
+  border-color: $color-green;
+}
+
+.btn-info {
+  background-color: $color-dark-blue;
+  background-image: -webkit-linear-gradient(top, lighten($color-dark-blue, 5%) 0%, $color-dark-blue 100%);
+  background-image: linear-gradient(to bottom, lighten($color-dark-blue, 5%) 0%, $color-dark-blue 100%);
+  border-color: darken($color-dark-blue, 5%);
+}
+
+.btn-warning {
+  background-color: $color-orange;
+  background-image: -webkit-linear-gradient(top, lighten($color-warning, 5%) 0%, $color-orange 100%);
+  background-image: linear-gradient(to bottom, lighten($color-warning, 5%) 0%, $color-orange 100%);
+  border-color: darken($color-warning, 5%);
+}
+
+.btn-danger {
+  background-color: $color-red;
+  background-image: -webkit-linear-gradient(top, lighten($color-red, 5%) 0%, $color-red 100%);
+  background-image: linear-gradient(to bottom, lighten($color-red, 5%) 0%, $color-red 100%);
+  border-color: $color-red;
+}
+
+.btn-neon {
+  background-color: $color-neon;
+  background-image: -webkit-linear-gradient(top, $color-neon 0%, darken($color-neon, 5%) 100%);
+  background-image: linear-gradient(to bottom, $color-neon 0%, darken($color-neon, 5%) 100%);
+  border-color: darken($color-neon, 5%);
+  color: $color-white !important;
+}
+
+.btn-reverse {
+  color: $color-white;
+  background-color: $color-dark-gray;
+  background-image: -webkit-linear-gradient(top, lighten($color-dark-gray, 5%) 0%, $color-dark-gray 100%);
+  background-image: linear-gradient(to bottom, lighten($color-dark-gray, 5%) 0%, $color-dark-gray 100%);
+  border-color: darken($color-dark-gray, 5%);
+}
+
+.btn-gray {
+  background-color: $color-online-ed;
+  background-image: -webkit-linear-gradient(top, #5e6a71 0%, $color-online-ed 100%);
+  background-image: linear-gradient(to bottom, #5e6a71 0%, $color-online-ed 100%);
+  border-color: $color-online-ed;
+  color: #999;
+}

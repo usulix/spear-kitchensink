@@ -1,0 +1,21 @@
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-stretch {
+  min-width: 100%;
+}
+
+.img-thumbnail {
+  padding: 4px;
+  border: none;
+  border-radius: 0;
+}

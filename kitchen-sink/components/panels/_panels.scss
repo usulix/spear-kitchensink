@@ -1,0 +1,82 @@
+/**
+  Panel
+ */
+
+.panel {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+  background: #f9f9f9;
+  color: #333;
+  border-color: #efefef;
+  .badge {
+    color: $color-white;
+    background-color: rgba($color-black, 0.2);
+    box-shadow: inset 1px 1px 0 rgba($color-black, 0.1);
+  }
+}
+
+.panel-footer {
+  background-color: rgba($color-black, 0.0235);
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid rgba($color-black, 0.05);
+  &.panel-footer-dark {
+    background-color: rgba($color-black, 0.125);
+    border-top: 1px solid rgba($color-black, 0.08);
+  }
+}
+
+.panel-group {
+  > .panel-default > .panel-heading {
+    background: $color-white;
+    color: #333;
+    border-color: #efefef;
+    a {
+      color: $color-theme-primary;
+      &:focus, &:hover {
+        color: darken($color-theme-primary, 7%);
+        text-decoration: none;
+      }
+    }
+  }
+  .panel-collapse > .panel-body {
+    background: #f9f9f9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='$color-white');
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to($color-white));
+    background: -moz-linear-gradient(top, #f9f9f9, $color-white);
+  }
+  .panel-heading + .panel-collapse > {
+    .list-group, .panel-body {
+      border-top: 1px solid #e8e8e8;
+    }
+  }
+}
+
+.panel-primary > .panel-heading {
+  background-color: $color-theme-primary;
+  background-image: -webkit-linear-gradient(top, lighten($color-theme-primary, 10%) 0%, $color-theme-primary 100%);
+  background-image: linear-gradient(to bottom, lighten($color-theme-primary, 10%) 0%, $color-theme-primary 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00caea', endColorstr='#ff00b9e4', GradientType=0);
+  background-repeat: repeat-x;
+  border-bottom: 1px solid darken($color-theme-primary, 7%);
+}
+
+.panel-default, .panel-primary {
+  border-color: #efefef;
+}
+
+.panel-reversed {
+  border-color: #efefef;
+  > .panel-heading {
+    background-color: $color-dark-gray;
+    background-image: -webkit-linear-gradient(top, lighten($color-dark-gray, 10%) 0%, $color-dark-gray 100%);
+    background-image: linear-gradient(to bottom, lighten($color-dark-gray, 10%) 0%, $color-dark-gray 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff303b43', endColorstr='#ff1b242a', GradientType=0);
+    background-repeat: repeat-x;
+    xborder-bottom: 1px solid $color-black;
+    color: $color-white;
+  }
+}

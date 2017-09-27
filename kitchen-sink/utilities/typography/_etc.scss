@@ -1,0 +1,39 @@
+.lead {
+  font-family: $font-light;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a.underline {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+a.no-underline {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.pipe {
+  margin: 0 8px;
+  opacity: .25;
+}
+
+.pipe-sm {
+  margin: 0 4px;
+  opacity: .25;
+}

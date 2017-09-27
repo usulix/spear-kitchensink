@@ -1,0 +1,37 @@
+.nav-tabs.nav-tabs-bkg > li > a {
+  background: rgba($color-white, .15);
+  border-color: rgba($color-white, .25) rgba($color-white, .25) rgba($color-white, .15);
+  color: rgba($color-white, .85);
+}
+
+.nav-tabs.nav-tabs-bkg > li > a:focus,
+.nav-tabs.nav-tabs-bkg > li > a:hover {
+  background: $color-white;
+  border-color: #eee #eee $color-white;
+  color: $color-theme-primary-darker;
+}
+
+.nav-tabs.nav-tabs-bkg > li.active > a,
+.nav-tabs.nav-tabs-bkg > li.active > a:focus,
+.nav-tabs.nav-tabs-bkg > li.active > a:hover {
+  border: 1px solid #efefef;
+  border-bottom-color: transparent;
+  color: $color-theme-primary;
+  cursor: pointer;
+}
+
+.nav-tabs.nav-tabs-bkg > li.active > a,
+.nav-tabs.nav-tabs-bkg > li.active > a:focus,
+.nav-tabs.nav-tabs-bkg > li.active > a:hover {
+  background: $color-white;
+  border: 1px solid $color-white;
+}
+
+.nav-tabs.nav-tabs-bkg > li > a.tab-gray:focus,
+.nav-tabs.nav-tabs-bkg > li > a.tab-gray:hover,
+.nav-tabs.nav-tabs-bkg > li.active > a.tab-gray,
+.nav-tabs.nav-tabs-bkg > li.active > a.tab-gray:focus,
+.nav-tabs.nav-tabs-bkg > li.active > a.tab-gray:hover {
+  background: #f6f6f6;
+  border: 1px solid #f6f6f6;
+}

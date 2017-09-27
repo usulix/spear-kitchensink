@@ -1,0 +1,131 @@
+/**
+  Carousels
+ */
+.carousel-default .carousel-control {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+  width: 8%;
+}
+
+.carousel-default .carousel-control.left {
+  background-image: none;
+  opacity: 0;
+}
+
+.carousel-default .carousel-control.right {
+  background-image: none;
+  opacity: 0;
+  right: 0;
+}
+
+.carousel.carousel-default:hover .carousel-control.left,
+.carousel.carousel-default:hover .carousel-control.right {
+  opacity: .25;
+}
+
+.carousel.carousel-default:hover .carousel-control.left:hover,
+.carousel.carousel-default:hover .carousel-control.right:hover {
+  opacity: .65;
+}
+
+.carousel-default .carousel-control .carousel-control-prev,
+.carousel-default .carousel-control .carousel-control-next {
+  display: inline-block;
+  font-size: 36px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+}
+
+.carousel-default .carousel-control .carousel-control-next {
+  right: 20px;
+}
+
+.carousel-default .carousel-control .carousel-control-prev {
+  left: 20px;
+}
+
+.carousel-default .carousel-indicators {
+  bottom: 2px;
+}
+
+.carousel-default .carousel-indicators .active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-default .carousel-indicators li {
+  background-color: rgba(255, 255, 255, .35);
+  border: none;
+}
+
+.carousel-default .carousel-indicators li:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-default .carousel-indicators li,
+.carousel-default .carousel-indicators .active {
+  height: 8px;
+  margin: 2px;
+  width: 8px;
+}
+
+.carousel.carousel-default .carousel-inner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel.carousel-default .carousel-inner .hero-gradient {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  display: block;
+  left: 0;
+  opacity: 0; /* hide all slides */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -webkit-transition: opacity ease-in-out .7s;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1; /* show first slide */
+  position: relative;
+}
+
+.carousel-control,
+.carousel-indicators li {
+  -webkit-transition: all ease-in-out .125s;
+  -moz-transition: all ease-in-out .125s;
+  -ms-transition: all ease-in-out .125s;
+  -o-transition: all ease-in-out .125s;
+  transition: all ease-in-out .125s;
+}
+
+@include small-screens {
+  .carousel-control .carousel-control-next { right: 10px; }
+
+  .carousel-control .carousel-control-prev { left: 10px; }
+}

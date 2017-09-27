@@ -1,0 +1,8 @@
+ul {
+  &.list-striped > li, &.list-stripes > li {
+    padding: 8px;
+  }
+  &.list-striped > li:nth-child(odd), &.list-stripes > li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.025);
+  }
+}

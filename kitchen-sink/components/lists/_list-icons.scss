@@ -1,0 +1,9 @@
+ul.list-icons > li {
+  padding-left: 30px !important;
+  position: relative;
+  .icon, .fa {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+  }
+}

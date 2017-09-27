@@ -1,0 +1,65 @@
+/**
+    Smooth Navigation
+ */
+.smooth-nav {
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+  &.navbar-fixed-top + {
+    div, span[id] {
+      padding-top: $navigation-height; /* navigation height */
+      display: block;
+    }
+  }
+  .list-inline > li {
+    padding-right: 40px;
+  }
+  &.bkg-seminars {
+    .nav > li {
+      > a {
+        color: $color-dark-gray !important;
+      }
+      &.active > a {
+        color: $color-white !important;
+        background: transparent;
+      }
+      > a {
+        &:hover, &:focus {
+          color: $color-white !important;
+          background: transparent;
+        }
+      }
+    }
+    .open > a {
+      background: $color-theme-primary;
+    }
+  }
+  &.bkg-practice-solutions .nav > li {
+    > a {
+      color: $color-light-gray !important;
+    }
+    &.active > a {
+      color: $color-theme-primary !important;
+      background: transparent;
+    }
+    > a {
+      &:hover, &:focus {
+        color: $color-theme-primary !important;
+        background: transparent;
+      }
+    }
+  }
+  .nav > li {
+    display: table-cell;
+  }
+  .dropdown-menu > li {
+    > a {
+      &:focus, &:hover {
+        background-color: lighten($color-light-gray, 15%);
+      }
+    }
+    &.active > a {
+      background-color: lighten($color-light-gray, 15%);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.tooltip-inner {
+  background-color: #212629;
+  white-space: nowrap;
+  max-width: none;
+}
+
+.tooltip {
+  &.left .tooltip-arrow {
+    border-left-color: #212629;
+  }
+  &.top .tooltip-arrow {
+    border-top-color: #212629;
+  }
+  &.bottom .tooltip-arrow {
+    border-bottom-color: #212629;
+  }
+  &.right .tooltip-arrow {
+    border-right-color: #212629;
+  }
+}
+
+.tooltip-static {
+  position: relative;
+  display: inline-block;
+  margin: 10px 20px;
+  opacity: 1;
+}

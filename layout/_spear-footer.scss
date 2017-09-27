@@ -1,0 +1,180 @@
+/**
+ * Footer
+ */
+
+#footer {
+  background: #fff;
+  font-size: 13px;
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      color: #1b242a;
+      line-height: 20px;
+    }
+  }
+  dl a {
+    color: #1b242a;
+    line-height: 20px;
+  }
+  ul a:hover {
+    color: #00b9e4;
+  }
+  dl {
+    a:hover {
+      color: #00b9e4;
+    }
+    dt {
+      background: #f1f1f1;
+      border-top: 1px solid #dcdcdc;
+      border-left: 1px solid #dcdcdc;
+      color: #00b9e4;
+      font-family: gothlight;
+      font-size: 10px;
+      float: left;
+      line-height: 20px;
+      margin-right: 6px;
+      padding: 0 4px;
+    }
+    dd {
+      margin-bottom: 10px;
+      padding: 0 0 0 50px;
+    }
+  }
+  .row.info {
+    padding-top: 40px;
+  }
+  .copyright a {
+    color: #1b242a;
+  }
+}
+
+.social-icons {
+  float: left;
+  a {
+    background: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+    color: #d2d6d7;
+    float: left;
+    font-size: 16px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    -webkit-transition: all ease-in-out .125s;
+    -moz-transition: all ease-in-out .125s;
+    -ms-transition: all ease-in-out .125s;
+    -o-transition: all ease-in-out .125s;
+    transition: all ease-in-out .125s;
+    width: 30px;
+    &:hover {
+      color: #fff;
+    }
+    &.facebook {
+      &:hover, &.active {
+        background: #314a87;
+      }
+    }
+    &.twitter {
+      &:hover {
+        background: #22bbf4;
+      }
+      &.active {
+        background: #1face1;
+      }
+    }
+    &.google {
+      &:hover, &.active {
+        background: #d3492c;
+      }
+    }
+    &.linkedin:hover, &.instagram:hover, &.linkedin.active {
+      background: #008ac1;
+    }
+    &.youtube:hover {
+      background: #d72a25;
+    }
+    &.snapchat:hover {
+      background: #FFFC01;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    &.mail:hover {
+      background: #00b9e4;
+    }
+  }
+  .row {
+    padding: 0 15px;
+  }
+  .col-xs-2 {
+    padding: 0 1px;
+  }
+}
+
+#footer .footer-base {
+  padding-bottom: 20px;
+  line-height: 15px;
+}
+
+@include extra-small-screens {
+  #footer {
+    .questions {
+      height: auto;
+      .dark:after {
+        display: none;
+      }
+      ul {
+        text-align: center;
+      }
+      span {
+        float: left;
+        margin: 0 10px;
+      }
+      ul li {
+        display: block;
+        overflow: hidden;
+        text-align: left;
+      }
+      span {
+        float: left;
+        margin: 0 10px;
+      }
+    }
+    .footer-base .copyright {
+      padding: 15px;
+    }
+  }
+  #footer-connect-with-spear {
+    margin-top: 15px;
+  }
+  .social-icons {
+    float: left;
+    position: relative;
+    left: 50%;
+    .row {
+      float: left;
+      position: relative;
+      left: -50%;
+    }
+  }
+}
+
+
+@include small-screens {
+  #footer .questions .dark h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+}

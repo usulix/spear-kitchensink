@@ -1,0 +1,135 @@
+/**
+  Defaults
+ */
+.btn {
+  border-radius: 1px;
+  font-family: $font-bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+}
+
+.btn:focus, .btn:hover {
+  outline: none !important;
+}
+
+.btn-link {
+  color: $color-blue;
+}
+
+.btn-link:hover, .btn-link:focus, .btn-link:active, .btn-link.active, .open .dropdown-toggle.btn-link {
+  color: darken($color-blue, 5%);
+}
+
+button.close {
+  outline: none;
+}
+
+.btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/**
+  Button Sizes
+ */
+.btn-lg {
+  font-size: 16px;
+}
+
+.btn-sm {
+  font-size: 11px;
+}
+
+.btn-xs {
+  font-size: 10px;
+}
+
+/**
+  Button States
+ */
+.btn-danger:active, .btn-danger.active, .btn-danger:active.focus, .btn-danger.active.focus, .btn-danger:active:focus, .btn-danger.active:focus, .btn-danger:active:hover, .btn-danger.active:hover,
+.btn-danger.focus, .btn-danger:focus, .btn-danger:hover, .btn-danger:hover.focus, .btn-danger:hover:focus,
+.open .dropdown-toggle.btn-danger, .open .dropdown-toggle.btn-danger:hover, .open .dropdown-toggle.btn-danger:focus {
+  background-color: $color-red;
+  background-image: -webkit-linear-gradient(top, lighten($color-red, 5%) 40%, $color-red 100%);
+  background-image: linear-gradient(to bottom, lighten($color-red, 5%) 40%, $color-red 100%);
+  border-color: $color-red;
+}
+
+.btn-default:active, .btn-default.active, .btn-default:active.focus, .btn-default.active.focus, .btn-default:active:focus, .btn-default.active:focus, .btn-default:active:hover, .btn-default.active:hover,
+.btn-default.focus, .btn-default:focus, .btn-default:hover, .btn-default:hover.focus, .btn-default:hover:focus,
+.open .dropdown-toggle.btn-default, .open .dropdown-toggle.btn-default:hover, .open .dropdown-toggle.btn-default:focus {
+  background-color: $color-white;
+  background-image: -webkit-linear-gradient(top, $color-white 0%, darken($color-white, 5%) 100%);
+  background-image: linear-gradient(to bottom, $color-white 0%, darken($color-white, 5%) 100%);
+  border-color: darken($color-white, 12%);
+  color: darken($color-theme-primary, 10%);
+}
+
+.btn-info:active, .btn-info.active, .btn-info:active.focus, .btn-info.active.focus, .btn-info:active:focus, .btn-info.active:focus, .btn-info:active:hover, .btn-info.active:hover, .btn-info.focus, .btn-info:focus, .btn-info:hover, .btn-info:hover.focus, .btn-info:hover:focus, .open .dropdown-toggle.btn-info, .open .dropdown-toggle.btn-info:hover, .open .dropdown-toggle.btn-info:focus {
+  background-color: $color-dark-blue;
+  background-image: -webkit-linear-gradient(top, lighten($color-dark-blue, 5%) 40%, $color-dark-blue 100%);
+  background-image: linear-gradient(to bottom, lighten($color-dark-blue, 5%) 40%, $color-dark-blue 100%);
+  border-color: darken($color-dark-blue, 5%);
+}
+
+.btn-primary:active, .btn-primary.active, .btn-primary:active.focus, .btn-primary.active.focus, .btn-primary:active:focus, .btn-primary.active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:hover, .btn-primary:hover.focus, .btn-primary:hover:focus, .open .dropdown-toggle.btn-primary, .open .dropdown-toggle.btn-primary:hover, .open .dropdown-toggle.btn-primary:focus {
+  background-color: $color-theme-primary;
+  background-image: -webkit-linear-gradient(top, lighten($color-theme-primary, 5%) 40%, $color-theme-primary 100%);
+  background-image: linear-gradient(to bottom, lighten($color-theme-primary, 5%) 40%, $color-theme-primary 100%);
+  border-color: darken($color-theme-primary, 5%);
+}
+
+.btn-reverse:active, .btn-reverse.active, .btn-reverse:active.focus, .btn-reverse.active.focus, .btn-reverse:active:focus, .btn-reverse.active:focus, .btn-reverse:active:hover, .btn-reverse.active:hover,
+.btn-reverse.focus, .btn-reverse:focus, .btn-reverse:hover, .btn-reverse:hover.focus, .btn-reverse:hover:focus,
+.open .dropdown-toggle.btn-reverse, .open .dropdown-toggle.btn-reverse:hover, .open .dropdown-toggle.btn-reverse:focus {
+  color: $color-white;
+  background-image: -webkit-linear-gradient(top, lighten($color-dark-gray, 5%) 40%, $color-dark-gray 100%);
+  background-image: linear-gradient(to bottom, lighten($color-dark-gray, 5%) 40%, $color-dark-gray 100%);
+  border-color: darken($color-dark-gray, 5%);
+  text-decoration: none;
+}
+
+.btn-success:active, .btn-success.active, .btn-success:active.focus, .btn-success.active.focus, .btn-success:active:focus, .btn-success.active:focus, .btn-success:active:hover, .btn-success.active:hover, .btn-success.focus, .btn-success:focus, .btn-success:hover, .btn-success:hover.focus, .btn-success:hover:focus, .open .dropdown-toggle.btn-success, .open .dropdown-toggle.btn-success:hover, .open .dropdown-toggle.btn-success:focus {
+  background-color: $color-green;
+  background-image: -webkit-linear-gradient(top, lighten($color-green, 10%) 40%, $color-green 100%);
+  background-image: linear-gradient(to bottom, lighten($color-green, 10%) 40%, $color-green 100%);
+  border-color: $color-green;
+}
+
+.btn-neon:active, .btn-neon.active, .btn-neon:active.focus, .btn-neon.active.focus, .btn-neon:active:focus, .btn-neon.active:focus, .btn-neon:active:hover, .btn-neon.active:hover, .btn-neon.focus, .btn-neon:focus, .btn-neon:hover, .btn-neon:hover.focus, .btn-neon:hover:focus, .open .dropdown-toggle.btn-neon, .open .dropdown-toggle.btn-neon:hover, .open .dropdown-toggle.btn-neon:focus {
+  background-color: $color-neon;
+  background-image: -webkit-linear-gradient(top, $color-neon 40%, darken($color-neon, 5%) 100%);
+  background-image: linear-gradient(to bottom, $color-neon 40%, darken($color-neon, 5%) 100%);
+  border-color: darken($color-neon, 5%);
+}
+
+.btn-gray:active,
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray.active,
+.open .dropdown-toggle.btn-info {
+  background-color: $color-online-ed;
+  background-image: -webkit-linear-gradient(top, #5e6a71 40%, $color-online-ed 100%);
+  background-image: linear-gradient(to bottom, #5e6a71 40%, $color-online-ed 100%);
+  border-color: $color-online-ed;
+  color: #ccc;
+}
+
+.btn-warning:active, .btn-warning.active, .btn-warning:active.focus, .btn-warning.active.focus, .btn-warning:active:focus, .btn-warning.active:focus, .btn-warning:active:hover, .btn-warning.active:hover, .btn-warning.focus, .btn-warning:focus, .btn-warning:hover, .btn-warning:hover.focus, .btn-warning:hover:focus, .open .dropdown-toggle.btn-warning, .open .dropdown-toggle.btn-warning:hover, .open .dropdown-toggle.btn-warning:focus {
+  background-color: $color-orange;
+  background-image: -webkit-linear-gradient(top, lighten($color-warning, 5%) 40%, $color-orange 100%);
+  background-image: linear-gradient(to bottom, lighten($color-warning, 5%) 40%, $color-orange 100%);
+  border-color: darken($color-warning, 5%);
+}
+

@@ -1,0 +1,74 @@
+a.btn-action-item {
+  color: #00b9e4;
+  cursor: pointer;
+  display: block;
+  font-family: gothmed;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 60px;
+}
+
+a.btn-action-item .icon {
+  border: 2px solid #00b9e4;
+  border-radius: 50%;
+  color: #00b9e4;
+  font-size: 22px;
+  height: 42px;
+  line-height: 44px;
+  margin: auto;
+  width: 42px;
+}
+
+a.btn-action-item:hover,
+a.btn-action-item:focus {
+  color: #0099bd;
+}
+
+a.btn-action-item:hover .icon,
+a.btn-action-item:focus .icon {
+  border-color: #0099bd;
+}
+
+.btn-logout:focus, .btn-logout:hover {
+  color: #cc5714;
+  border: 1px solid #cc5714;
+}
+
+.btn-item-edit:hover {
+  color: #88bc45;
+  border: 1px solid #88bc45;
+}
+
+.btn-item-delete:hover {
+  color: #cc0000;
+  border: 1px solid #cc0000;
+}
+
+.btn-default small {
+  color: #8c9197;
+  top: -1px;
+  font-family: gothmed;
+}
+
+.btn-social-login {
+  padding: 0;
+  text-align: left;
+}
+
+.btn-social-login .fa {
+  border-right: 1px solid rgba($color-black, .125);
+  font-size: 18px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  width: 45px;
+}
+
+.btn-social-login .btn-title {
+  font-size: 13px;
+  padding-left: 10px;
+  position: relative;
+  top: -1px;
+}

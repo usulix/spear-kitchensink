@@ -1,0 +1,97 @@
+.bkg-gradient-faculty-club {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 1) 0%, $color-faculty-club 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 1) 0%, $color-faculty-club 100%);
+  background: linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 1) 0%, $color-faculty-club 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6353b3e', endColorstr='#e6596368', GradientType=1);
+}
+
+.bkg-gradient-hero-faculty-club {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 0.75) 0%, rgba($color-faculty-club, 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 0.75) 0%, rgba($color-faculty-club, 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-faculty-club, 15%), 0.75) 0%, rgba($color-faculty-club, 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9353b3e', endColorstr='#d9596368', GradientType=1);
+}
+
+.bkg-gradient-online {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 1) 0%, rgba($color-online-ed, 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 1) 0%, rgba($color-online-ed, 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 1) 0%, rgba($color-online-ed, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6222e34', endColorstr='#e648545a', GradientType=1);
+}
+
+.bkg-gradient-hero-online {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 0.75) 0%, rgba($color-online-ed, 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 0.75) 0%, rgba($color-online-ed, 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-online-ed, 15%), 0.75) 0%, rgba($color-online-ed, 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9222e34', endColorstr='#d948545a', GradientType=1);
+}
+
+.bkg-gradient-patient-ed {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 1) 0%, rgba(lighten($color-patient-ed, 10%), 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 1) 0%, rgba(lighten($color-patient-ed, 10%), 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 1) 0%, rgba(lighten($color-patient-ed, 10%), 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6003e56', endColorstr='#e6006c87', GradientType=1);
+}
+
+.bkg-gradient-hero-patient-ed {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 0.75) 0%, rgba(lighten($color-patient-ed, 10%), 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 0.75) 0%, rgba(lighten($color-patient-ed, 10%), 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-patient-ed, 10%), 0.75) 0%, rgba(lighten($color-patient-ed, 10%), 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9003e56', endColorstr='#d9006c87', GradientType=1);
+}
+
+.bkg-gradient-seminars {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.85) 0%, rgba(darken($color-seminars, 7%), 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.85) 0%, rgba(darken($color-seminars, 7%), 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.85) 0%, rgba(darken($color-seminars, 7%), 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e600436e', endColorstr='#e60090bb', GradientType=1);
+}
+
+.bkg-gradient-hero-seminars {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.75) 0%, rgba(darken($color-seminars, 5%), 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.75) 0%, rgba(darken($color-seminars, 5%), 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-seminars, 15%), 0.75) 0%, rgba(darken($color-seminars, 5%), 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d900436e', endColorstr='#d9009ac5', GradientType=1);
+}
+
+.bkg-gradient-study-club {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-study-club, 10%), 1) 0%, rgba(lighten($color-study-club, 5%), 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-study-club, 10%), 1) 0%, rgba(lighten($color-study-club, 5%), 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-study-club, 10%), 1) 0%, rgba(lighten($color-study-club, 5%), 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6493f36', endColorstr='#e66f6253', GradientType=1);
+}
+
+.bkg-gradient-hero-study-club {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-study-club, 10%), 0.75) 0%, rgba(lighten($color-study-club, 5%), 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-study-club, 10%), 0.75) 0%, rgba(lighten($color-study-club, 5%), 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-study-club, 10%), 0.75) 0%, rgba(lighten($color-study-club, 5%), 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9493f36', endColorstr='#d96f6253', GradientType=1);
+}
+
+.bkg-gradient-team-ed {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 1) 0%, rgba(lighten($color-team-ed, 2%), 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 1) 0%, rgba(lighten($color-team-ed, 2%), 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 1) 0%, rgba(lighten($color-team-ed, 2%), 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6002668', endColorstr='#e600579f', GradientType=1);
+}
+
+.bkg-gradient-hero-team-ed {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 0.75) 0%, rgba(lighten($color-team-ed, 2%), 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 0.75) 0%, rgba(lighten($color-team-ed, 2%), 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-team-ed, 10%), 0.75) 0%, rgba(lighten($color-team-ed, 2%), 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9002668', endColorstr='#d900579f', GradientType=1);
+}
+
+.bkg-gradient-workshops {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-workshops, 10%), 1) 0%, rgba(lighten($color-workshops, 5%), 1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-workshops, 10%), 1) 0%, rgba(lighten($color-workshops, 5%), 1) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-workshops, 10%), 1) 0%, rgba(lighten($color-workshops, 5%), 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6005a55', endColorstr='#e6209893', GradientType=1);
+}
+
+.bkg-gradient-hero-workshops {
+  background: -moz-linear-gradient(45deg, rgba(darken($color-workshops, 10%), 0.75) 0%, rgba(lighten($color-workshops, 5%), 0.75) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(darken($color-workshops, 10%), 0.75) 0%, rgba(lighten($color-workshops, 5%), 0.75) 100%);
+  background: linear-gradient(45deg, rgba(darken($color-workshops, 10%), 0.75) 0%, rgba(lighten($color-workshops, 5%), 0.75) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9005a55', endColorstr='#d9209893', GradientType=1);
+}

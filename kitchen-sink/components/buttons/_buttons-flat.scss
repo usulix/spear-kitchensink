@@ -1,0 +1,85 @@
+@import "base";
+
+/**
+  Buttons Flat
+ */
+.btn-default.btn-flat {
+  background: $color-white none;
+  border-color: $color-white;
+}
+
+.btn-default.btn-flat:active, .btn-default.btn-flat.active, .btn-default.btn-flat:active.focus, .btn-default.btn-flat.active.focus, .btn-default.btn-flat:active:focus, .btn-default.btn-flat.active:focus, .btn-default.btn-flat:active:hover, .btn-default.btn-flat.active:hover, .btn-default.btn-flat.focus, .btn-default.btn-flat:focus, .btn-default.btn-flat:hover, .btn-default.btn-flat:hover.focus, .btn-default.btn-flat:hover:focus, .open .dropdown-toggle.btn-default.btn-flat, .open .dropdown-toggle.btn-default.btn-flat:hover, .open .dropdown-toggle.btn-default.btn-flat:focus {
+  background: #fafafa none;
+  border-color: #fafafa;
+}
+
+.btn-primary.btn-flat {
+  background: $color-theme-primary none;
+  border-color: $color-theme-primary;
+}
+
+.btn-primary.btn-flat:active, .btn-primary.btn-flat.active, .btn-primary.btn-flat:active.focus, .btn-primary.btn-flat.active.focus, .btn-primary.btn-flat:active:focus, .btn-primary.btn-flat.active:focus, .btn-primary.btn-flat:active:hover, .btn-primary.btn-flat.active:hover, .btn-primary.btn-flat.focus, .btn-primary.btn-flat:focus, .btn-primary.btn-flat:hover, .btn-primary.btn-flat:hover.focus, .btn-primary.btn-flat:hover:focus, .open .dropdown-toggle.btn-primary.btn-flat, .open .dropdown-toggle.btn-primary.btn-flat:hover, .open .dropdown-toggle.btn-primary.btn-flat:focus {
+  background: $color-theme-primary-darker none;
+  border-color: $color-theme-primary-darker;
+}
+
+.btn-success.btn-flat {
+  background: $color-green none;
+  border-color: $color-green;
+}
+
+.btn-success.btn-flat:active, .btn-success.btn-flat.active, .btn-success.btn-flat:active.focus, .btn-success.btn-flat.active.focus, .btn-success.btn-flat:active:focus, .btn-success.btn-flat.active:focus, .btn-success.btn-flat:active:hover, .btn-success.btn-flat.active:hover, .btn-success.btn-flat.focus, .btn-success.btn-flat:focus, .btn-success.btn-flat:hover, .btn-success.btn-flat:hover.focus, .btn-success.btn-flat:hover:focus, .open .dropdown-toggle.btn-success.btn-flat, .open .dropdown-toggle.btn-success.btn-flat:hover, .open .dropdown-toggle.btn-success.btn-flat:focus {
+  background: darken($color-success, 7%) none;
+  border-color: darken($color-success, 7%);
+}
+
+.btn-info.btn-flat {
+  background: lighten($color-dark-blue, 5%) none;
+  border-color: lighten($color-dark-blue, 5%);
+}
+
+.btn-info:active.btn-flat, .btn-info.btn-flat.active, .btn-info.btn-flat:active.focus, .btn-info.btn-flat.active.focus, .btn-info.btn-flat:active:focus, .btn-info.btn-flat.active:focus, .btn-info.btn-flat:active:hover, .btn-info.btn-flat.active:hover, .btn-info.btn-flat.focus, .btn-info.btn-flat:focus, .btn-info.btn-flat:hover, .btn-info.btn-flat:hover.focus, .btn-info.btn-flat:hover:focus, .open .dropdown-toggle.btn-info.btn-flat, .open .dropdown-toggle.btn-info.btn-flat:hover, .open .dropdown-toggle.btn-info.btn-flat:focus {
+  background: $color-dark-blue none;
+  border-color: $color-dark-blue;
+}
+
+.btn-warning.btn-flat {
+  background: lighten($color-warning, 5%) none;
+  border-color: lighten($color-warning, 5%);
+}
+
+.btn-warning.btn-flat:active, .btn-warning.btn-flat.active, .btn-warning.btn-flat:active.focus, .btn-warning.btn-flat.active.focus, .btn-warning.btn-flat:active:focus, .btn-warning.btn-flat.active:focus, .btn-warning.btn-flat:active:hover, .btn-warning.btn-flat.active:hover, .btn-warning.btn-flat.focus, .btn-warning.btn-flat:focus, .btn-warning.btn-flat:hover, .btn-warning.btn-flat:hover.focus, .btn-warning.btn-flat:hover:focus, .open .dropdown-toggle.btn-warning.btn-flat, .open .dropdown-toggle.btn-warning.btn-flat:hover, .open .dropdown-toggle.btn-warning.btn-flat:focus {
+  background: $color-orange none;
+  border-color: $color-orange;
+}
+
+.btn-danger.btn-flat {
+  background: $color-danger none;
+  border-color: $color-danger;
+}
+
+.btn-danger.btn-flat:active, .btn-danger.btn-flat.active, .btn-danger.btn-flat:active.focus, .btn-danger.btn-flat.active.focus, .btn-danger.btn-flat:active:focus, .btn-danger.btn-flat.active:focus, .btn-danger.btn-flat:active:hover, .btn-danger.btn-flat.active:hover, .btn-danger.btn-flat.focus, .btn-danger.btn-flat:focus, .btn-danger.btn-flat:hover, .btn-danger.btn-flat:hover.focus, .btn-danger.btn-flat:hover:focus, .open .dropdown-toggle.btn-danger.btn-flat, .open .dropdown-toggle.btn-danger.btn-flat:hover, .open .dropdown-toggle.btn-danger.btn-flat:focus {
+  background: darken($color-danger, 7%) none;
+  border-color: darken($color-danger, 7%);
+}
+
+.btn-neon.btn-flat {
+  background: $color-neon none;
+  border-color: $color-neon;
+  color: $color-white !important;
+}
+
+.btn-neon.btn-flat:active, .btn-neon.btn-flat.active, .btn-neon.btn-flat:active.focus, .btn-neon.btn-flat.active.focus, .btn-neon.btn-flat:active:focus, .btn-neon.btn-flat.active:focus, .btn-neon.btn-flat:active:hover, .btn-neon.btn-flat.active:hover, .btn-neon.btn-flat.focus, .btn-neon.btn-flat:focus, .btn-neon.btn-flat:hover, .btn-neon.btn-flat:hover.focus, .btn-neon.btn-flat:hover:focus, .open .dropdown-toggle.btn-neon.btn-flat, .open .dropdown-toggle.btn-neon.btn-flat:hover, .open .dropdown-toggle.btn-neon.btn-flat:focus {
+  background: darken($color-neon, 7%) none;
+  border-color: darken($color-neon, 7%);
+}
+
+.btn-reverse.btn-flat {
+  background: $color-dark-gray none;
+  border-color: $color-dark-gray;
+}
+
+.btn-reverse.btn-flat:active, .btn-reverse.btn-flat.active, .btn-reverse.btn-flat:active.focus, .btn-reverse.btn-flat.active.focus, .btn-reverse.btn-flat:active:focus, .btn-reverse.btn-flat.active:focus, .btn-reverse.btn-flat:active:hover, .btn-reverse.btn-flat.active:hover, .btn-reverse.btn-flat.focus, .btn-reverse.btn-flat:focus, .btn-reverse.btn-flat:hover, .btn-reverse.btn-flat:hover.focus, .btn-reverse.btn-flat:hover:focus, .open .dropdown-toggle.btn-reverse.btn-flat, .open .dropdown-toggle.btn-reverse.btn-flat:hover, .open .dropdown-toggle.btn-reverse.btn-flat:focus {
+  background: $color-black none;
+  border-color: $color-black;
+}

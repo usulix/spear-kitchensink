@@ -1,0 +1,50 @@
+/**
+  Modals
+ */
+
+.modal {
+  text-align: left;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-footer {
+  background: rgba(0, 0, 0, 0.0235);
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid #efefef;
+}
+
+.modal-header {
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  &.modal-tabs {
+    padding: 8px 8px 0 8px;
+  }
+  .close {
+    opacity: .35;
+    text-shadow: none;
+    &:focus, &:hover {
+      opacity: 1;
+    }
+  }
+  &.header-icon {
+    padding-left: 65px;
+    position: relative;
+    .icon {
+      background: rgba(255, 255, 255, 0.125);
+      border-radius: 4px 0 0 0;
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 24px;
+      height: 100%;
+      left: 0;
+      padding-top: 15px;
+      position: absolute;
+      top: 0;
+      text-align: center;
+      width: 50px;
+    }
+  }
+}

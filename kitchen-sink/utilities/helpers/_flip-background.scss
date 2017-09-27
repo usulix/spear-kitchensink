@@ -1,0 +1,48 @@
+/**
+  Flip Background
+
+  @Overview
+    The flip background class enables a hero background image to flip on mobile view, which in turn keeps the image viewable on the device without requiring a second background image
+
+  @Instructions
+    Please insert the code example below as a template for the background image and gradient you would like to use, and then modify
+
+    .flip-background {
+        background-image: linear-gradient(rgba(0, 51, 73, 0.5), rgba(0, 51, 73, 0.5)), url("/images/content/practice-solutions/sps-marketing-theater.jpg");
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .flip-background::before {
+            background-image: linear-gradient(rgba(0, 51, 73, 0.5), rgba(0, 51, 73, 0.5)), url("/images/content/practice-solutions/sps-marketing-theater.jpg");
+        }
+    }
+ */
+
+.flip-background {
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flip-background {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    padding: 0;
+    &::before {
+      background: no-repeat right;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      // IE
+      -ms-filter: "FlipH";
+      background-size: cover;
+    }
+  }
+}

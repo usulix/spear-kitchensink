@@ -1,0 +1,76 @@
+/**
+  Height
+ */
+
+/**
+  .h-10 = height: 10px !important;
+ */
+@for $i from 1 through 600 {
+  .h-#{$i} {
+    height: #{$i}px !important;
+  }
+}
+
+.h-full { height: 100%; }
+
+.h-inherit { height: inherit; }
+
+/**
+  .h-lg-10 = height: 10px !important;
+ */
+@include large-screens {
+  @for $i from 1 through 600 {
+    .h-lg#{$i} {
+      height: #{$i}px !important;
+    }
+  }
+
+  .h-lg-full { height: 100%; }
+
+  .h-lg-inherit { height: inherit; }
+}
+
+/**
+  .h-md-10 = height: 10px !important;
+ */
+@include medium-screens {
+  @for $i from 1 through 600 {
+    .h-md-#{$i} {
+      height: #{$i}px !important;
+    }
+  }
+
+  .h-md-full { height: 100%; }
+
+  .h-md-inherit { height: inherit; }
+}
+
+/**
+  .h-sm-10 = height: 10px !important;
+ */
+@include small-screens {
+  @for $i from 1 through 600 {
+    .h-sm-#{$i} {
+      height: #{$i}px !important;
+    }
+  }
+
+  .h-sm-full { height: 100%; }
+
+  .h-sm-inherit { height: inherit; }
+}
+
+/**
+  .h-xs-10 = height: 10px !important;
+ */
+@include extra-small-screens {
+  @for $i from 1 through 600 {
+    .h-xs-#{$i} {
+      height: #{$i}px !important;
+    }
+  }
+
+  .h-xs-full { height: 100%; }
+
+  .h-xs-inherit { height: inherit; }
+}

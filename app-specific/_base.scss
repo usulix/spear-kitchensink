@@ -1,0 +1,107 @@
+/**
+  Base project styles
+ */
+body {
+  position: relative;
+}
+
+body, html {
+  background: $color-theme-background;
+  color: $color-dark-gray;
+  font-family: $font-theme-primary;
+  height: 100%;
+}
+
+a {
+  color: $color-theme-primary-darker;
+  cursor: pointer;
+  &:focus, &:hover {
+    color: $color-theme-primary;
+    text-decoration: none;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.checkbox.disabled label, .radio.disabled label, fieldset[disabled] .checkbox label, fieldset[disabled] .radio label {
+  color: #bbb;
+}
+
+.btn,
+.close,
+.transition {
+  -webkit-transition: all ease-in-out .125s;
+  -moz-transition: all ease-in-out .125s;
+  -ms-transition: all ease-in-out .125s;
+  -o-transition: all ease-in-out .125s;
+  transition: all ease-in-out .125s;
+}
+
+ul.selectable {
+  list-style: none; padding: 0; margin: 10px 0 0 0;
+}
+
+/* Angular cloak */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* this fixes background scrolling on bootstrap modals for mobile browsers */
+@media (max-width: 767px) {
+  body.modal-open {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+h1 strong, .h1 strong, h1 .strong, .h1 .strong,
+h2 strong, .h2 strong, h2 .strong, .h2 .strong,
+h3 strong, .h3 strong, h3 .strong, .h3 .strong,
+h4 strong, .h4 strong, h4 .strong, .h4 .strong,
+h5 strong, .h5 strong, h5 .strong, .h5 .strong,
+h6 strong, .h6 strong, h6 .strong, .h6 .strong,
+p.lead strong, p .lead .strong, p.lead .strong {
+  font-weight: normal;
+  font-family: $font-medium;
+}
+
+p code,
+ul li code,
+td code {
+  background: #FFF;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .075);
+}
+
+/**
+ * Fast Click (IE10 and IE11)
+ */
+a, button, input[type="submit"] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/**
+ * Wrap for Sticky Footer
+ */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -387px;
+  padding: 0 0 387px;
+}
+
+address {
+  font-size: 13px;
+}
+
+address img {
+  margin-bottom: 15px;
+}
+
+address .btn {
+  margin-top: 15px;
+}

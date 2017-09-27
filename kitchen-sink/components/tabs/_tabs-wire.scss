@@ -1,0 +1,26 @@
+.nav-tabs.nav-tabs-wire {
+  border-bottom: 1px solid $color-blue;
+}
+
+.nav-tabs.nav-tabs-wire > li > a {
+  background: $color-white;
+  border-color: #cecece #cecece $color-blue;
+  border-radius: 1px 1px 0 0;
+  color: #aaaeaf;
+}
+
+.nav-tabs.nav-tabs-wire > li.active > a,
+.nav-tabs.nav-tabs-wire > li.active > a:focus,
+.nav-tabs.nav-tabs-wire > li.active > a:hover {
+  border: 1px solid $color-blue;
+  border-bottom-color: transparent;
+  color: $color-blue;
+  cursor: pointer;
+}
+
+.nav-tabs.nav-tabs-wire > li > a:focus,
+.nav-tabs.nav-tabs-wire > li > a:hover {
+  background: $color-white;
+  border-color: $color-blue;
+  color: $color-blue;
+}

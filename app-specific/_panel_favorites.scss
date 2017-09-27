@@ -1,0 +1,24 @@
+#panel-favorites li a, #site-messages-form a {
+  font-family: 'gothmed';
+  color: #0099bd;
+}
+
+#panel-favorites li a {
+  padding: 5px 5px 5px 0;
+  &:hover {
+    color: #00b9e4;
+  }
+}
+
+#site-messages-form a:hover {
+  color: #00b9e4;
+}
+
+#panel-favorites li a img {
+  border-right: 1px solid #aaaeaf;
+  border-bottom: 1px solid #aaaeaf;
+}
+
+#site-messages-form a {
+  padding: 5px 5px;
+}

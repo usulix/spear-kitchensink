@@ -1,0 +1,230 @@
+/**
+  Panel Widget
+ */
+.panel-widget a {
+  -webkit-transition: all ease-in-out .125s;
+  -moz-transition: all ease-in-out .125s;
+  -ms-transition: all ease-in-out .125s;
+  -o-transition: all ease-in-out .125s;
+  transition: all ease-in-out .125s;
+}
+
+.panel-widget .panel-body {
+  height: 250px;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 15px;
+}
+
+.panel-widget .panel-body hr {
+  margin: 10px 0;
+}
+
+.panel-widget .panel-body.h-inherit {
+  height: inherit;
+  min-height: inherit;
+}
+
+.panel-widget .panel-footer,
+.panel-widget .panel-footer-light {
+  border-radius: 0 0 3px 3px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.panel-widget .panel-footer {
+  background-color: $color-dark-blue;
+  border-top: none;
+  color: $color-white;
+}
+
+.panel-widget .panel-footer-light {
+  background-color: rgba(0, 0, 0, 0.03);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08000000', endColorstr='#00000000', GradientType=0);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.panel-widget .panel-footer a,
+.panel-widget .panel-footer-light a {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.panel-widget .panel-footer a {
+  color: $color-white;
+}
+
+.panel-widget .panel-footer-light a {
+  color: #999;
+}
+
+.panel-widget .panel-footer a:focus,
+.panel-widget .panel-footer a:hover {
+  color: $color-white;
+}
+
+.panel-widget .panel-footer-light a:focus,
+.panel-widget .panel-footer-light a:hover {
+  color: $color-blue;
+}
+
+.panel-widget .panel-footer .date,
+.panel-widget .panel-footer-light .date {
+  font-size: 13px;
+  position: relative;
+  top: -1px;
+}
+
+.panel-widget .panel-footer .arrow-left,
+.panel-widget .panel-footer .arrow-right,
+.panel-widget .panel-footer-light .arrow-left,
+.panel-widget .panel-footer-light .arrow-right {
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.panel-widget .panel-footer .arrow-left,
+.panel-widget .panel-footer .arrow-right {
+  background: rgba(0, 0, 0, .08);
+  color: $color-blue;
+}
+
+.panel-widget .panel-footer .arrow-left:focus,
+.panel-widget .panel-footer .arrow-left:hover,
+.panel-widget .panel-footer .arrow-right:focus,
+.panel-widget .panel-footer .arrow-right:hover {
+  background: rgba(0, 0, 0, .15);
+  color: $color-white;
+}
+
+.panel-widget .panel-footer-light .arrow-left,
+.panel-widget .panel-footer-light .arrow-right {
+  background: rgba(0, 0, 0, .02);
+}
+
+.panel-widget .panel-footer-light .arrow-left:focus,
+.panel-widget .panel-footer-light .arrow-left:hover,
+.panel-widget .panel-footer-light .arrow-right:focus,
+.panel-widget .panel-footer-light .arrow-right:hover {
+  background: rgba(0, 0, 0, .035);
+}
+
+.panel-widget .panel-header {
+  background-color: rgba(0, 0, 0, 0.03);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.03) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#08000000', GradientType=0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  padding: 0;
+}
+
+.panel-widget .panel-header a {
+  color: $color-dark-blue;
+  text-decoration: none;
+}
+
+.panel-widget .panel-header a:focus,
+.panel-widget .panel-header a:hover {
+  color: $color-blue;
+}
+
+.panel-widget .panel-header .form-control,
+.panel-widget .panel-header-dark .form-control {
+  height: 25px;
+  padding: 1px 2px;
+  font-size: 12px;
+}
+
+.panel-widget .panel-header .media,
+.panel-widget .panel-header .media-body,
+.panel-widget .panel-header-dark .media,
+.panel-widget .panel-header-dark .media-body {
+  overflow: initial;
+}
+
+.panel-widget .panel-header .media-body,
+.panel-widget .panel-header-dark .media-body {
+  padding: 6px 6px 6px 10px;
+}
+
+.panel-widget .panel-header .info-tooltip,
+.panel-widget .panel-header-dark .info-tooltip {
+  background: rgba(0, 0, 0, .025);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  margin-left: 0;
+  padding: 10px 10px;
+}
+
+.panel-widget .panel-header-dark .info-tooltip.info-message {
+  padding: 6px 10px;
+}
+
+.panel-widget .panel-header-dark {
+  background-color: $color-dark-blue;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 3px 3px 0 0;
+  font-size: 18px;
+  padding: 0;
+}
+
+.panel-widget .panel-header-dark a {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.panel-widget .panel-header-dark a:focus,
+.panel-widget .panel-header-dark a:hover {
+  color: $color-blue;
+}
+
+.panel-widget .panel-header-dark .info-tooltip {
+  background: rgba(0, 0, 0, .08);
+  border-left: 1px solid rgba(0, 0, 0, .1);
+  color: rgba($color-theme-primary, .5);
+}
+
+@include medium-screens {
+  .panel-widget .panel-body {
+    height: 220px;
+  }
+}
+
+@include small-screens {
+  .panel-widget .panel-body {
+    height: 185px;
+    padding: 10px;
+  }
+
+  .panel-widget .panel-footer .date,
+  .panel-widget .panel-footer-light .date {
+    font-size: 12px;
+  }
+  .panel-widget .panel-header,
+  .panel-widget .panel-header-dark {
+    font-size: 15px;
+  }
+
+  .panel-widget .panel-header .form-control,
+  .panel-widget .panel-header-dark .form-control {
+    height: 21px;
+    padding: 0px 1px;
+  }
+
+  .panel-widget .panel-header .info-tooltip,
+  .panel-widget .panel-header-dark .info-tooltip {
+    padding: 9px 10px;
+  }
+}
+
+@include extra-small-screens {
+  .panel-widget .panel-body {
+    height: inherit;
+  }
+}

@@ -1,0 +1,9 @@
+.slider-handle {
+  background-color: $color-blue;
+  background-image: -webkit-linear-gradient(top, $color-blue 0, $color-theme-primary-darker 100%);
+  background-image: -o-linear-gradient(top, $color-blue 0, $color-theme-primary-darker 100%);
+  background-image: linear-gradient(to bottom, $color-blue 0, $color-theme-primary-darker 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00b9e4', endColorstr='#ff00aad1', GradientType=0);
+  filter: none;
+}
